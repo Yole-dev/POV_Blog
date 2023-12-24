@@ -21,6 +21,10 @@ a {
     color: var(--themeText);
 }
 
+a:hover{
+    transform: scale(1.2);
+}
+
 button {
     border: none;
     border-radius: 1rem;
@@ -68,6 +72,10 @@ header {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+}
+
+header ion-icon {
+    cursor: pointer;
 }
 
 .socials {
@@ -293,6 +301,15 @@ footer {
 
 .kyc > div:nth-of-type(3) {
     width: 100%;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.subEmailError {
+    margin-top: -1.5rem;
+    align-self: start;
 }
 
 footer section {

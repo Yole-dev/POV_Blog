@@ -10,8 +10,8 @@
     <header>
         <div class="socials">
             <div class="themeSwitch">
-                <ion-icon name="sunny-outline" class="dayThemeActive"></ion-icon>
-                <ion-icon name="moon-outline" class="nightThemeActive"></ion-icon>
+                <ion-icon name="sunny-outline" class="dayTheme"></ion-icon>
+                <ion-icon name="moon-outline" class="nightTheme"></ion-icon>
             </div>
 
             <div class="socialMedia">
@@ -95,9 +95,9 @@
 
                 <form action="#">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-
-                    <button class="subscribeButton">Subscribe</button>
+                    <input type="email" name="email" id="subEmail" autocomplete="on">
+                    <small class="subEmailError errorMessage"></small>
+                    <button class="subBtn">Subscribe</button>
                 </form>
             </div>
 
@@ -124,26 +124,29 @@
         <form action="#" class="kyc" id="kyc">
             <div>
                 <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName" class="input">
+                <input type="text" name="firstName" id="firstName" class="input" maxlength="30" autocomplete="on">
+                <small class="firstError errorMessage"></small>
             </div>
            
             <div>
                 <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName" class="input">
+                <input type="text" name="lastName" id="lastName" class="input" maxlength="30" autocomplete="on">
+                <small class="lastError errorMessage"></small>
             </div>
             
             <div>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="input">
+                <input type="email" name="email" id="email" class="input" maxlength="50" autocomplete="on">
+                <small class="emailError errorMessage"></small>
             </div>
 
             <div>
                 <label for="message">Leave us a message...</label>
-                <input type="text" name="message" id="message" class="input">
+                <input type="text" name="message" id="message" class="input" maxlength="50">
             </div>
             
 
-            <button>Submit</button>
+            <button class="submitBtn">Submit</button>
         </form>
 
         <section>
