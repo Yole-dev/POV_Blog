@@ -1,0 +1,31 @@
+main {
+    margin-bottom: 3rem;
+}
+
+.post2 div:first-of-type {
+    background-image: url(images/post2.jpg);
+    background-position-y: 30%;
+}
+
+.post3 div:first-of-type {
+    background-image: url(images/post3.jpg);
+    background-position-y: 55%;
+}
+
+.post4 div:first-of-type {
+    background-image: url(images/post4.jpg);
+}
+
+.post5 div:first-of-type {
+    background-image: url(images/post5.jpg);
+}
+
+.post6 div:first-of-type {
+    background-image: url(images/post6.jpg);
+    background-position-y: bottom;
+}
+
+.post7 div:first-of-type {
+    background-image: url(images/post7.jpg);
+    background-position-y: bottom;
+}

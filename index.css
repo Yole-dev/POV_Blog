@@ -220,6 +220,7 @@ main section {
 
 .allPosts {
     margin-bottom: 1rem;
+    transform: none !important;
 }
 
 .blogSection {
@@ -278,6 +279,8 @@ main section {
 .findInsta > .socialMedia ion-icon {
     font-size: 1.5rem;
 }
+
+
 
 /* footer styles */
 
