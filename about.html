@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pov_About_page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <div class="socials">
+            <div class="themeSwitch">
+                <ion-icon name="sunny-outline" class="dayTheme"></ion-icon>
+                <ion-icon name="moon-outline" class="nightTheme"></ion-icon>
+            </div>
+
+            <div class="socialMedia">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a>  
+            </div>
+        </div>
+
+        <div class="nav">
+            <h3>POV</h3>
+            <ion-icon name="menu-outline" class="openNav"></ion-icon>
+        </div>
+
+        <nav class="mobileNav">
+            <div>
+                <h3>POV</h3>
+                <ion-icon name="close-outline" class="closeNav"></ion-icon>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="myblog.html">My Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#kyc">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="aboutAuthor">
+        <div>
+            <h3>Meet the face behind the posts</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus quis dolor quis luctus. Fusce faucibus imperdiet magna. Etiam placerat ac diam gravida molestie.
+                Vestibulum euismod, risus mollis efficitur condimentum, felis nulla imperdiet augue, ut maximus risus sem vel dui. 
+                In leo nisi, consectetur commodo lorem ut, tincidunt ornare lacus. Praesent tristique risus ut massa condimentum, non pellentesque lectus aliquam. Ut porta at nibh vitae varius. Aliquam erat volutpat. 
+                Aliquam pretium luctus felis id luctus.
+            </p>
+
+            <p>
+                Etiam ante dolor, tempor in pretium at, interdum nec erat. 
+                Phasellus volutpat luctus pellentesque. Suspendisse sollicitudin eros id dui egestas, ac egestas quam volutpat. 
+                Suspendisse imperdiet sed sem vel accumsan. Curabitur elementum sapien at consequat dignissim. Maecenas libero velit, suscipit commodo finibus eu, lacinia nec nisi. 
+                Praesent sed sodales lorem. 
+                Pellentesque eget orci vel lacus tristique consectetur et vel mauris. Vestibulum nec arcu sem. Vestibulum ante elit, vestibulum sed enim quis, iaculis dapibus lectus. 
+                Cras ultricies egestas justo volutpat eleifend. Maecenas nec magna velit. Nullam felis risus, condimentum et lorem ullamcorper, fringilla malesuada elit. Nunc vitae dui id ante placerat bibendum pellentesque ut odio. 
+                Aliquam finibus condimentum auctor.
+                In rhoncus elementum est a suscipit.
+            </p>
+
+            <div>
+                
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <footer>
+        <h3>Let me know what's on your mind</h3>
+        <form action="#" class="kyc" id="kyc">
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" class="input" maxlength="30" autocomplete="on">
+                <small class="firstError errorMessage"></small>
+            </div>
+           
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" class="input" maxlength="30" autocomplete="on">
+                <small class="lastError errorMessage"></small>
+            </div>
+            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="input" maxlength="50" autocomplete="on">
+                <small class="emailError errorMessage"></small>
+            </div>
+
+            <div>
+                <label for="message">Leave us a message...</label>
+                <input type="text" name="message" id="message" class="input" maxlength="50">
+            </div>
+            
+
+            <button class="submitBtn">Submit</button>
+        </form>
+
+        <section>
+            <small> &copy; 2023 by POV. Powered and secured by <a href="https://github.com/Yole-dev">Yole</a></small>
+        </section>
+    </footer>
+
+    <!-- personal script -->
+    <script src="script.js"></script>
+
+    <!-- ionicons webpack -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
