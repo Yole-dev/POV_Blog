@@ -1,0 +1,155 @@
+/* default styles */
+:root{
+    --themeBackground: white;
+    --themeText: black;
+    --shadow: 0px 0px 3px black;
+    --transparent: rgba(0, 0, 0, 0.062);
+}
+
+h4 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* body styles */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 1rem 0;
+    align-self: center;
+    width: 100%;
+}
+
+main section div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.postImg {
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.4rem;
+    margin: 1rem 0;
+    align-self: center;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+}
+
+.hicking {
+    background: url(images/post1.jpg);
+    background-position: center;
+    background-position-y: 10%;
+}
+
+.breakfast {
+    background: url(images/post2.jpg);
+    background-position: center;
+    background-position-y: 30%;
+}
+
+.vacation {
+    background: url(images/post3.jpg);
+    background-position: center;
+    background-position-y: 55%;
+}
+
+.seaLegs {
+    background: url(images/post4.jpg);
+    background-size: cover;
+}
+
+.trip {
+    background: url(images/post5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sands {
+    background: url(images/post6.jpg);
+    background-position: center;
+    background-position-y: 65%;
+}
+
+.flight {
+    background: url(images/post7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 85%;
+}
+
+.postImg > div {
+    background: var(--themeBackground);
+    padding: 0.4rem;
+    align-self: end;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.postImg:hover > div {
+    opacity: 1;
+}
+
+.italicsText {
+    font-style: italic;
+    width: 85%;
+    border-left: solid 3px var(--themeText);
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.socialMediaBlog {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+main section:last-of-type p {
+    font-weight: 600;
+    border-top: solid 1px var(--themeText);
+    border-bottom: solid 1px var(--themeText);
+    width: 100%;
+    padding: 0.6rem 0;
+}
+
+main section:last-of-type textarea {
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    padding: 0.6rem;
+}
+
+main section:last-of-type textarea:focus {
+    outline: none;
+}
+
+
+main section:last-of-type > div {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.sendComment ion-icon, .cancelComment ion-icon {
+    font-size: 1.4rem;
+}
