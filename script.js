@@ -25,7 +25,7 @@ const themeSwitch = document.querySelector('.themeSwitch')
 
 const dayTheme = document.querySelector('.dayTheme');
 const nightTheme = document.querySelector('.nightTheme')
-
+// accessing the css variables
 const root = document.querySelector(':root');
 
 
@@ -53,35 +53,6 @@ nightTheme.addEventListener('click', function(){
     nightTheme.setAttribute('name', 'moon');
 
 });
-
-// dayThemeActive.addEventListener('click', function(){
-//     body.style.background = 'white';
-
-//     root.style.setProperty('--themeBackground', 'white');
-//     root.style.setProperty('--themeText', 'black');
-//     root.style.setProperty('--shadow', '0px 0px 3px black');
-//     themeSwitch.innerHTML = '';
-//     themeSwitch.insertAdjacentHTML('afterbegin', 
-//         `<ion-icon name="sunny" class="dayTheme"></ion-icon> 
-
-//          <ion-icon name="moon-outline" class="nightThemeInactive"></ion-icon>`
-//     );
-// });
-
-// nightThemeActive.addEventListener('click', function(){
-//     body.style.background = 'black';
-
-//     root.style.setProperty('--themeBackground', 'black');
-//     root.style.setProperty('--themeText', 'white');
-//     root.style.setProperty('--shadow', '0px 0px 3px white');
-
-//     themeSwitch.innerHTML = '';
-//     themeSwitch.insertAdjacentHTML('afterbegin', 
-//         `<ion-icon name="sunny-outline" class="dayThemeInactive"></ion-icon>
-
-//          <ion-icon name="moon" class="nightTheme"></ion-icon>`
-//     );
-// });
 
 
 
